@@ -30,5 +30,3 @@
 | ------ | ------------------------- | ------------------------------------ |
 | 210706 | _[BOJ 1271]_ 엄청난 부자2 | https://www.acmicpc.net/problem/1271 |
 
-<a href="https://github.com/zzerii">
-<img src = "https://user-images.githubusercontent.com/37285946/106130812-2c8f0280-61a5-11eb-968c-2cdff9049eb0.png" width="15%" /></a>
