@@ -3,19 +3,19 @@
 ### CCCR 구로2반 코테 스터디😎
 
 <a href="https://github.com/zzerii">
-<img src = "https://avatars.githubusercontent.com/u/61822411?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/61822411?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/parkbyungnam">
-<img src = "https://avatars.githubusercontent.com/u/57394605?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/57394605?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/aboova">
-<img src = "https://avatars.githubusercontent.com/u/57314841?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/57314841?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/BaekSeongTak">
-<img src = "https://avatars.githubusercontent.com/u/86943528?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/86943528?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/ndiepray">
-<img src = "https://avatars.githubusercontent.com/u/86943561?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/86943561?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/gmlwpfEh">
-<img src = "https://avatars.githubusercontent.com/u/86943596?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/86943596?v=4" width="7%" style="border-radius: 50%" />
 <a href="https://github.com/nxxxtyetdecided">
-<img src = "https://avatars.githubusercontent.com/u/86827063?v=4" width="15%" style="border-radius: 50%" />
+<img src = "https://avatars.githubusercontent.com/u/86827063?v=4" width="7%" style="border-radius: 50%" />
 
 
 
