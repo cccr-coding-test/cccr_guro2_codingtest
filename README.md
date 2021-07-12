@@ -31,3 +31,6 @@
 | 210706 | _[BOJ 1271]_ 엄청난 부자2 | https://www.acmicpc.net/problem/1271 |
 | 210707 | _[BOJ 1297]_ TV 크기 | https://www.acmicpc.net/problem/1297 |
 | 210708 | _[BOJ 1712]_ 손익분기점 | https://www.acmicpc.net/problem/1712 |
+| 210709 | _[BOJ 2420]_사파리월드| https://www.acmicpc.net/problem/2420 |
+| 210712 | _[BOJ 1009]_분산처리| https://www.acmicpc.net/problem/1009 |
+  
