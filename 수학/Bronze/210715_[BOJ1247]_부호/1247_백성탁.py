@@ -1,17 +1,19 @@
+from sys import stdin
+
 result = [ ]
 
 for _ in range(3):
-    n = int(input())
+    n = int(stdin.readline())
     d = [ ]
 
     for i in range(n):
-        d.append(int(input()))
+        d.append(int(stdin.readline()))
 
-    S=0
-    for i in d:
-        S += i
+    S = sum(d)
+    # S=0
+    # for i in d:
+    #     S += i
         
-
     if S < 0:
         result.append('-')
     elif S > 0:
