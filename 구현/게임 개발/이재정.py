@@ -44,3 +44,6 @@ while(True):
       cnt = 0
 
 print(move_cnt)
+
+#계속 답이 2가 나온다..
+#맨정신에 다시 
