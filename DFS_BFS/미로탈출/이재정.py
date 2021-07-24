@@ -1,3 +1,5 @@
+#답은 10이 꾸역꾸역 나오지만 풀이법도 다르고 어렵다..
+
 n, m = map(int, input().split())
 matrix = [[0]]*n
 
