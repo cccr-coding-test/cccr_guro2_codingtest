@@ -1,12 +1,14 @@
 ### solution 
 n,k = map(int,input().split())
-temp = (n//k) * k
-count = n - temp
+count = 0
 while True:
-    if temp < k:
+    temp = (n//k) * k
+    count = count + n - temp
+    n = temp
+    if n < k:
         break
     count += 1
-    temp //= k
+    n //= k
 
-result = count + temp - 1
+result = count + n - 1
 print(result)
