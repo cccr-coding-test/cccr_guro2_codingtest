@@ -1,8 +1,8 @@
-mylist=[]
+numbers=[]
 for _ in range(int(input())):
-    mylist.append(int(input()))
+    numbers.append(int(input()))
 
-mylist.sort(reverse=True)
+numbers.sort(reverse=True)
 
-for my in mylist:
-  print(my,end=' ')
+for number in numbers:
+  print(number,end=' ')
