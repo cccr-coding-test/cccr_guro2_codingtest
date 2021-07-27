@@ -18,6 +18,7 @@ dy = [0,1,0,-1]
 visit = set()
 visit.add((x,y))
 count = 0
+
 while True:
     # print(x,y, count)
     if count == 4:
