@@ -6,7 +6,7 @@ for i in range(n):
   score = int(score)
   info[name] = score
 
-sorted_info = sorted(info.items())
+sorted_info = sorted(info.items(), key=lambda x: x[1])
 
 for key, value in sorted_info:
   print(key, end=" ")
