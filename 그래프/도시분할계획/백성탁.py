@@ -1,0 +1,42 @@
+# 최소 신장 트리 만들어야 하는데 2개 만들어야 되는 것 같은데..
+# 결국 책 참조... 생각보다 간단...
+# 가장 비용이 큰 간선을 제거하면 2개의 마을로 분리..
+
+def find_parent(parent, x):
+    if parent[x] != x:
+        return find_parent(parent, parent[x])
+    else:
+        return parent[x]
+
+def union_parent(parent, a, b):
+    a = find_parent(parent, a)
+    b = find_parent(parent, b)
+    if a < b:
+        parent[b] = a
+    else:
+        parent[a] = b
+
+v, e = map(int, input().split())
+parent = [0] * (v+1)
+
+edges = []
+result = 0
+vlaue = 0
+
+for i in range(1, v+1):
+    parent[i] = i
+
+for i in range(e):
+    a, b, cost = map(int, input().split())
+    edges.append((cost, a, b))
+
+edges.sort()
+
+for edge in edges:
+    cost, a, b = edge
+    if find_parent(parent, a) != find_parent(parent, b):
+        union_parent(parent, a, b)
+        result = result + cost
+        value = cost
+
+print(result - value)
