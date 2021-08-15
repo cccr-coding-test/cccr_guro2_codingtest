@@ -1,27 +1,3 @@
-## 큰 수의 법칙
-n, m, k = map(int, input().split())
-data = list(map(int, input().split()))
-data.sort(reverse=True)
-
-first = data[0]
-second = data[1]
-
-p = m // (k+1)
-q = m % (k+1)
-
-result = p * (k * first + second) + q * first
-print(result)
-
-## 숫자 카드 게임
-n, m = map(int, input().split())
-result = 0
-for i in range(n):
-    row = list(map(int, input().split()))
-    row_min = min(row)
-    result = max(result, row_min)
-print(result)
-
-
 ## 1이 될 때까지
 # n, k = map(int, input().split())
 # count = 0
