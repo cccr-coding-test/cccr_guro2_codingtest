@@ -13,9 +13,9 @@ for a in range(1, n+1):
             graph[a][b] = 0
 
 for _ in range(m):
-    s, e, c = map(int, input().split())
-    if graph[s][e] > c:
-        graph[s][e] = c
+    s, d, c = map(int, input().split())
+    if graph[s][d] > c:
+        graph[s][d] = c
      
 for k in range(1, n+1):
     for a in range(1, n+1):
