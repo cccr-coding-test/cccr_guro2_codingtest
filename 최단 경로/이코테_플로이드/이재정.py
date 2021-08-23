@@ -20,10 +20,7 @@ for _ in range(m):
 for k in range(1, n+1):
     for a in range(1, n+1):
         for b in range(1, n+1):
-            if a == b:
-                graph[a][b] = 0
-            else:
-                graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])
+            graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])
 
 for a in range(1, n+1):
     for b in range(1, n+1):
