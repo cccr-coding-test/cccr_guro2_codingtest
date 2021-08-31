@@ -1,3 +1,4 @@
+
 G = int(input())
 P = int(input())
 line = []
