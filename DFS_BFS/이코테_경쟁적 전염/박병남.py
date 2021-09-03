@@ -18,10 +18,8 @@ for i in range(n):
 
 def solution():
     global n,s,result_x,result_y
-    queue=deque()
-    for info in virus_start_locations:
-        queue.append(info)
-        flag=False
+    queue=deque(virus_start_locations)
+    flag=False
     while queue:
         if flag:
             break
