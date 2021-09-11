@@ -1,6 +1,3 @@
-from abc import abstractproperty
-
-
 S = input()
 
 word = []
